@@ -1,0 +1,45 @@
+import { Link } from "react-router-dom";
+
+export default function Inicio() {
+  return (
+    <div>
+      <div className="container-cards grid grid-cols-2 gap-9 mx-52 m-8 font-bold">
+        <Link to="/administrator?type=admin">
+          <div className="container container-img admins p-4">
+            <h1 className="text-4xl">ADMINISTRADORES</h1>
+            <img
+              className="img"
+              src="img/administrador.png"
+              alt="Logo de Administrador"
+              title="Imagen de https://www.flaticon.es/iconos-gratis iconos creados por kerismaker - Flaticon"
+            />
+          </div>
+        </Link>
+        <Link to="/secretary?type=secretary">
+          <div className="container container-img secretarias p-4">
+            <h1 className="text-4xl">SECRETARÍAS</h1>
+            <img
+              className="img"
+              src="img/mostrador.png"
+              alt="Logo de Secretaria"
+              title="Imagen de https://www.flaticon.es/iconos-gratis iconos creados por kerismaker - Flaticon"
+            />
+          </div>
+        </Link>
+      </div>
+      <div className="container-cards gap-9 font-bold">
+        <Link to="/doctor?type=doctor">
+          <div className="container container-img doctors p-4">
+            <h1 className="text-4xl">DOCTORES</h1>
+            <img
+              className="img"
+              src="img/equipo-medico.png"
+              alt="Logo de Doctor"
+              title="Imagen de https://www.flaticon.es/iconos-gratis iconos creados por kerismaker - Flaticon"
+            />
+          </div>
+        </Link>
+      </div>
+    </div>
+  );
+}
