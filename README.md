@@ -10,7 +10,11 @@ Unicamente esta hecho el deploy del frontend en github pages, para mantener mis 
 
 Sin embargo, el repositorio completo esta en mi perfil como:
 
-CRM-HOSPITAL-SISTEMA-DE-SALUD (dentro de este repositorio se encuentra el backen en laravel y la base de datos .mysql) CRM-PACIENTE-SISTEMA-DE-SALUD
+CRM-HOSPITAL-SISTEMA-DE-SALUD https://github.com/HectorAguilar21/CRM-HOSPITAL-SISTEMA-DE-SALUD
+
+CRM-PACIENTE-SISTEMA-DE-SALUD https://github.com/HectorAguilar21/CRM-PACIENTE-SISTEMA-DE-SALUD
+
+CRM-SISTEMA-DE-SALUD-LARAVEL https://github.com/HectorAguilar21/CRM-SISTEMA-DE-SALUD-LARAVEL
 
 Pueden descargarlo e instalarlos en su equipo y revisar a fondo todo, ver el funcionamiento completo, etc... Por el momento solo estara la app en fronten en deploy y en el espacio donde tiene que mostrar informacion de la base de datos quedara en "Cargando..." o si la app de pacientes necesita validar un usuario para pasar a la siguiente pantalla, simplemente no lo hara.
 
